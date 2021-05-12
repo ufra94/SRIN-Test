@@ -9,5 +9,5 @@
 3. Running a simple 'HelloWorld' GET API on http://localhost:8080/greeting 
 
 
-![Image](https://github.com/ufra94/SRIN-Test/blob/main/Question%204%20-%20Trying%20Spring%20Framework/Screenshot.png)
+![Image](https://github.com/ufra94/SRIN-Test/blob/main/Question%204%20-%20Trying%20Spring%20Framework/Screenshot.PNG)
 
