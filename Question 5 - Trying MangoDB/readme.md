@@ -8,6 +8,6 @@
 3. Running a simple query to retrieve data from MongoDB documents using spring framework 
 
 
-![Image](https://github.com/ufra94/SRIN-Test/blob/main/Question%205%20-%20Trying%20MongoDB/Screenshot2.PNG)
+![Image](https://github.com/ufra94/SRIN-Test/blob/main/Question%205%20-%20Trying%20MangoDB/Screenshot2.PNG)
 
 
