@@ -1,3 +1,9 @@
 ### Objections:
 1. Try using HTTP Benchmark 'Vegeta'
 2. List down the parameter which can be changed from benchmark tools and the parameter from the result test.
+
+### Implementation:
+1. Download windows build of Vegeta ver 12.8.3 and run it using windows command prompt.
+2. Try vegeta attack on 'Greeting' GET API (created for question 5) in local environment and print out the report
+
+
