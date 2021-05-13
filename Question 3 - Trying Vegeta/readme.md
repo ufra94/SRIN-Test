@@ -4,6 +4,6 @@
 
 ### Implementation:
 1. Download windows build of Vegeta ver 12.8.3 and run it using windows command prompt.
-2. Try vegeta attack on 'Greeting' GET API (created for question 5) in local environment and print out the report
+2. Try vegeta attack on 'Greeting' GET API (created for question 4) in local environment and print out the report
 
-
+![Image](https://github.com/ufra94/SRIN-Test/blob/main/Question%204%20-%20Trying%20Spring%20Framework/Screenshot.PNG)
