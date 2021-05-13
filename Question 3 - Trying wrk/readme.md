@@ -8,4 +8,4 @@
 2. Try running wrk load test on local environment on 'Greeting' GET API created for question 4.
 
 
-![Image](https://github.com/ufra94/SRIN-Test/blob/main/Question%203%20-%20Trying%20Vegeta/Screenshot3.PNG)
+![Image](https://github.com/ufra94/SRIN-Test/blob/main/Question%203%20-%20Trying%20wrk/Screenshot4.PNG)
