@@ -7,3 +7,20 @@
 2. Try vegeta attack on 'Greeting' GET API (created for question 4) in local environment and print out the report
 
 ![Image](https://github.com/ufra94/SRIN-Test/blob/main/Question%203%20-%20Trying%20Vegeta/Screenshot3.PNG)
+
+### Parameters
+1. Parameters used for running the application:
+
+    Global flags:
+      * **-cpu** : number of CPUs used in a test
+      * **profile** : enable [cpu,heap] profiling. Profiling is used to analyze the complexity and costs. <br /> 
+     
+    Command:
+      * **attack** : Run a load test
+      * **encode** : Encodes attack results from one encoding to another. The supported encodings are Gob (binary), CSV and JSON.
+      * **report** : Generate and print the report of attack results 
+      * **plot** : Outputs an HTML time series plot of request latencies over time.  
+
+
+    Command flags (parameters unique for each command):
+        1. Att
