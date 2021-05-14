@@ -8,6 +8,6 @@
 2. In sorted index, the data is stored according to a certain ordering. Indices then created on a fixed interval which then used to access a particular data in a sequential manner. 
 3. Tradeoff: Hash indexing is best at accessing a singular data, but is very poor at accessing a range of data because it has to found the data one by one. On the contrary, sort indexing can retrieve a range of data much faster than hash indexing because the data has been sorted, but might be slower when accessing a single data. 
 
-### Question 2 answer:
+### Question 2 & 3 answer:
 1. `SELECT user_id FROM table WHERE user_id = 1` This query is better done using hash index. 
 2. `SELECT user_id FROM table WHERE age > 15 AND age < 60` This query is retrieving a range of data and is better done using sorted index.
