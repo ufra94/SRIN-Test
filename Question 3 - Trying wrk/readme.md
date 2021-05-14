@@ -18,8 +18,8 @@
     * **-t** : thread, which specifies the number of threads used in a test. The total number of connections is distributed evenly among the threads.
     * **-s**  :  script, to run a LuaJIT script
     * **-h** : header, which specifies the HTTP header that may be added to a request
-    * **--latency** : to print a detailed latency report
-    * **--timeout** : if a response isn't recieved within a specified amount of time, record as timeout.
+    * **--latency** : to print a detailed latency report. Latency is the amount of time taken for a response to a request to be read
+    * **--timeout** : if a response isn't received within a specified amount of time, record as timeout.
     
 2. Parameters on report
    * Thread stats: calculate the maximum, average, and standard deviation of latency and request/second for all threads.
