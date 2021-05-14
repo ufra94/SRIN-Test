@@ -21,6 +21,11 @@
       * **report** : Generate and print the report of attack results 
       * **plot** : Outputs an HTML time series plot of request latencies over time.  
 
-
-    Command flags (parameters unique for each command):
-        1. Att
+    Comman Flags (parameters unique for each command):
+      *  Attack flags : duration (length of an attack), output (output result), rate (Number of requests per time unit), timeout (duration for a request timeout), etc.
+      *  Report flags : bucket (specifies the histogram buckets), every (specifies the report interval), output (output report), type (choose which type among text, json, hist[buckets], hdrplot of report to generate).
+      *  encode : output (output result), to (choose which encoding to output among json, csv, gob)
+      *  plot : output (output result), threshold (threshold of data points above which series are downsampled), title (title and header of the resulting HTML page)
+    
+   
+ 
