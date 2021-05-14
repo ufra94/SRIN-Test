@@ -22,3 +22,8 @@
     * **--timeout** : if a response isn't recieved within a specified amount of time, record as timeout.
     
 2. Parameters on report
+   * Thread stats: calculate the maximum, average, and standard deviation of latency and request/second for all threads.
+   * Latency distribution : show the latency at 50%, 75%, 90% and 99% percentile
+   * Requests, time, memory: show the total number of requests, total time used, and total memory transferred.
+   * Request/second : number of request done per second (=requests/time)
+   * Transfer/second : memory transferred per second (=memory/time)
