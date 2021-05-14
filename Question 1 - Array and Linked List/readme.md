@@ -10,3 +10,10 @@
 2. Linked list is also a data structure that contains a group of element. Unlike array, linked list stores data typically in non contiguous manner, hence there is a need to store an additional tag that reference to the location of the next data. Linked list has flexible size, and its memory is allocated dynamically according to needs. 
 3. Tradeoff: Array is more compact than linked list, in a sense that it doesn't need to store the reference to next data location. However, if a data is sparse, having it stored in linked list will be more memory efficient overall. Being contiguously allocated also means that it can access a particular data instantly using an index, hence making it faster than linked list, which need to access data sequentially each time. However, array is more rigid than linked list. Once declared, it takes a costly operation to change the size and structure of an array, compared to linked list. Operation such as insertion is also much costlier in array than linked list, due to array's rigid structure. 
 
+### Question 2 answer:
+1. For this operation, having a linked list will be more efficient after all, because insertion is far more costlier in array than linked list.
+2. Let's say the length of a sequence is N, and a ball is going to be inserted in kth position. In array, the operation would be:
+    -move the kth ball one position to the right, then repeat this process with k+1th ball, so on until the Nth ball is moved to the right.
+    -insert the new ball into kth position.
+3. 
+
