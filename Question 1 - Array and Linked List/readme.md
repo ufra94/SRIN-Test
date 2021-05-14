@@ -13,7 +13,13 @@
 ### Question 2 answer:
 1. For this operation, having a linked list will be more efficient after all, because insertion is far more costlier in array than linked list.
 2. Let's say the length of a sequence is N, and a ball is going to be inserted in kth position. In array, the operation would be:
-    -move the kth ball one position to the right, then repeat this process with k+1th ball, so on until the Nth ball is moved to the right.
-    -insert the new ball into kth position.
-3. 
+    - move the kth ball one position to the right, then repeat this process with k+1th ball, so on until the Nth ball is moved to the right.
+    - insert the new ball into kth position.
+3. The same operation in linked list:
+    - Sequentially goes from the first ball until k-1th and kth ball is found.
+    - add the kth adress as the 'next' reference in the new ball.
+    - change the 'next' reference of k-1th ball to the new ball.
+4. Comparison:
+    - Array : a total of (N-k)+1 balls need to be moved
+    - Linked list : only two balls need to be modified
 
